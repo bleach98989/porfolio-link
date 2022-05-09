@@ -311,3 +311,14 @@ align-items: center;
 body.switchMode #contacts .container p:nth-child(1){
     color:#fff;
 }
+@media (max-width: 640px) {
+    .header_body_inner .right img{
+        display:none;
+    }
+    .contact-info{
+        flex-direction: column;
+    }
+    .portfolio_items{
+        flex-direction: column;
+    }
+}
